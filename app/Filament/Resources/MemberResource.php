@@ -35,7 +35,9 @@ class MemberResource extends Resource
             ->columns([
                 ImageColumn::make('photo_banner')
                 ->label('Preview')
-                ->size(50),
+                ->size(50)
+                ->tooltip(fn ($record) => $record->photo_banner)
+                ->url(fn ($record) => asset('storage/' . $record->photo_banner), true),
                 TextColumn::make('nim')->label('NIM'),
                 TextColumn::make('name')->label('Nama'),
                 TextColumn::make('semester')->label('Semester'),
