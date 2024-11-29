@@ -51,7 +51,11 @@ class ArticleNewsResource extends Resource
                 ->preload()
                 ->required(),
 
-                FileUpload::make('thumbnail'),
+                FileUpload::make('thumbnail')
+                ->label('Upload Gambar')
+                ->acceptedFileTypes(['image/png', 'image/jpeg', 'image/jpg']) // Membatasi tipe file
+                ->maxSize(5048) // Opsi tambahan: batas ukuran file (dalam KB), contoh: 2MB
+                ->required(),
 
                 Forms\Components\Radio::make('status')
                 ->options([
@@ -134,6 +138,12 @@ class ArticleNewsResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
+                Tables\Actions\DeleteAction::make()
+                ->label('Hapus') // Ubah label tombol
+                ->tooltip('Hapus data ini') // Tooltip tambahan
+                ->requiresConfirmation() // Tampilkan konfirmasi sebelum hapus
+                ->icon('heroicon-o-trash') // Ganti ikon jika diperlukan
+                ->color('danger'), // Warna tombol
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([

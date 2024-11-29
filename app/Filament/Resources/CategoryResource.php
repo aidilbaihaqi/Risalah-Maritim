@@ -46,6 +46,12 @@ class CategoryResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
+                Tables\Actions\DeleteAction::make()
+                ->label('Hapus') // Ubah label tombol
+                ->tooltip('Hapus data ini') // Tooltip tambahan
+                ->requiresConfirmation() // Tampilkan konfirmasi sebelum hapus
+                ->icon('heroicon-o-trash') // Ganti ikon jika diperlukan
+                ->color('danger'), // Warna tombol
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
