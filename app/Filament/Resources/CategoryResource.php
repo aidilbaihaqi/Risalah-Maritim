@@ -29,13 +29,7 @@ class CategoryResource extends Resource
                 Forms\Components\TextInput::make('name')
                 ->required()
                 ->afterStateUpdated(fn(Set $set, ?string $state) => $set('slug', Str::slug($state)))
-                ->live(debounce: 250)
                 ->maxLength(255),
-
-                Forms\Components\TextInput::make('slug')
-                ->required()
-                ->disabled(),
-        
             ]);
     }
 
@@ -44,6 +38,7 @@ class CategoryResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('name')->label('Name'),
+                TextColumn::make('slug')->label('Slug'),
                 TextColumn::make('created_at')->label('Created At')->date()
             ])
             ->filters([

@@ -4,11 +4,10 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Support\Str;
 
 class Literature extends Model
 {
-    use SoftDeletes;
 
     protected $fillable = [
         'title',
@@ -26,4 +25,14 @@ class Literature extends Model
     public function category(): BelongsTo {
         return $this->belongsTo(Category::class);
     }
+    protected static function booted()
+    {
+        static::creating(function ($article) {
+            $article->slug = Str::slug($article->title);
+        });
+    }
+
+    protected $attributes = [
+        'slug' => 'default-slug',
+    ];
 }

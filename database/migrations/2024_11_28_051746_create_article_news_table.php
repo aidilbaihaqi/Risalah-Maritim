@@ -14,9 +14,9 @@ return new class extends Migration
         Schema::create('article_news', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('slug');
+            $table->string('slug')->default('default-slug');
             $table->string('author');
-            $table->unsignedBigInteger('categori_id');
+            $table->unsignedBigInteger('category_id');
             $table->text('content');
             $table->string('thumbnail');
             $table->enum('status', ['draft', 'featured', 'published'])->default('draft');
