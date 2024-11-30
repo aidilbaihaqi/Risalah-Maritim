@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Member;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -14,12 +15,24 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-
+        // Data Admin
         User::create([
             'name' => 'admin-tekin',
-            'email' => 'admintekin@risalahmaritim.com',
+            'email' => 'admin-tekin@risalahmaritim.com',
             'password' => Hash::make('@#$admintek1n@#$')
         ]);
+
+        // Kepala Divisi
+        Member::create([
+            'nim' => '2301020006',
+            'name' => 'Aidil Baihaqi',
+            'semester' => '3',
+            'position' => 'Ketua Divisi',
+            'division' => 'Teknologi Informasi',
+            'major' => 'Teknik Informatika',
+            'campus' => 'FTTK'
+        ]);
+
+        // ntar ko lanjutin data anggota seterusnya
     }
 }
