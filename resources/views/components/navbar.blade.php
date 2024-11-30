@@ -20,9 +20,9 @@
                         <a href="#" class="dropdown-item">Menu item 3</a>
                     </div>
                 </div>
-              <a href="" class="nav-item nav-link">Kritik & Saran</a>
               <a href="" class="nav-item nav-link">Curhatan Mahasiswa</a>
-          </div>
+              <a href="" class="nav-item nav-link">Kritik & Saran</a>
+            </div>
           <div class="input-group ml-auto" style="width: 100%; max-width: 300px;">
               <input type="text" class="form-control" placeholder="Cari">
               <div class="input-group-append">
