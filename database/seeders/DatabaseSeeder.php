@@ -21,30 +21,19 @@ class DatabaseSeeder extends Seeder
             'email' => 'admintekin@risalahmaritim.com',
             'password' => Hash::make('@#$admintek1n@#$')
         ]);
-
         User::create([
             'name' => 'rivandi-ismanto',
             'email' => 'rivandick@risalahmaritim.com',
             'password' => Hash::make('rivandi666')
         ]);
-
         User::create([
             'name' => 'amelia',
             'email' => 'amelia@risalahmaritim.com',
             'password' => Hash::make('rizkygansparaheuy')
         ]);
 
-        // Kepala Divisi
-        Member::create([
-            'nim' => '2301020006',
-            'name' => 'Aidil Baihaqi',
-            'semester' => '3',
-            'position' => 'Ketua Divisi',
-            'division' => 'Teknologi Informasi',
-            'major' => 'Teknik Informatika',
-            'campus' => 'FTTK'
-        ]);
-
-        // ntar ko lanjutin data anggota seterusnya
+        $this->call([
+            MemberSeeder::class
+        ]); 
     }
 }
