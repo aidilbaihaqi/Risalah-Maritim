@@ -1,5 +1,5 @@
 @extends('layout.main')
 
 @section('container')
-  Halaman utama
+  WEBSITE PROGRESS 60%
 @endsection
