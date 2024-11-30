@@ -13,17 +13,17 @@ class CategorySeeder extends Seeder
      */
     public function run(): void
     {
-        Category::class(['name' => 'Acara']);
-        Category::class(['name' => 'Akademik dan Pendidikan']);
-        Category::class(['name' => 'Featured']);
-        Category::class(['name' => 'Straight']);
-        Category::class(['name' => 'Kegiatan Mahasiswa']);
-        Category::class(['name' => 'Lingkungan dan Sosial']);
-        Category::class(['name' => 'Opini']);
-        Category::class(['name' => 'Pengumuman']);
-        Category::class(['name' => 'Prestasi']);
-        Category::class(['name' => 'Seni dan Budaya']);
-        Category::class(['name' => 'Teknologi dan Inovasi']);
-        Category::class(['name' => 'Wawancara dan Podcast']);
+        Category::create(['name' => 'Acara']);
+        Category::create(['name' => 'Akademik dan Pendidikan']);
+        Category::create(['name' => 'Featured']);
+        Category::create(['name' => 'Straight']);
+        Category::create(['name' => 'Kegiatan Mahasiswa']);
+        Category::create(['name' => 'Lingkungan dan Sosial']);
+        Category::create(['name' => 'Opini']);
+        Category::create(['name' => 'Pengumuman']);
+        Category::create(['name' => 'Prestasi']);
+        Category::create(['name' => 'Seni dan Budaya']);
+        Category::create(['name' => 'Teknologi dan Inovasi']);
+        Category::create(['name' => 'Wawancara dan Podcast']);
     }
 }
