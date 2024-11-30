@@ -18,8 +18,20 @@ class DatabaseSeeder extends Seeder
         // Data Admin
         User::create([
             'name' => 'admin-tekin',
-            'email' => 'admin-tekin@risalahmaritim.com',
+            'email' => 'admintekin@risalahmaritim.com',
             'password' => Hash::make('@#$admintek1n@#$')
+        ]);
+
+        User::create([
+            'name' => 'rivandi-ismanto',
+            'email' => 'rivandick@risalahmaritim.com',
+            'password' => Hash::make('rivandi666')
+        ]);
+
+        User::create([
+            'name' => 'amelia',
+            'email' => 'amelia@risalahmaritim.com',
+            'password' => Hash::make('rizkygansparaheuy')
         ]);
 
         // Kepala Divisi
