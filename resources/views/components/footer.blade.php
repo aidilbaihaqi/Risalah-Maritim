@@ -1,6 +1,6 @@
 <div class="container-fluid bg-light pt-5 px-sm-3 px-md-5">
   <div class="row">
-      <div class="col-lg-3 col-md-6 mb-5">
+      <div class="col-lg-5 col-md-6 mb-5">
           <a href="index.html" class="navbar-brand">
               <h1 class="mb-2 mt-n2 display-5 text-uppercase"><span class="text-primary">Risalah </span>Maritim</h1>
           </a>
@@ -15,23 +15,6 @@
       </div>
       <div class="col-lg-3 col-md-6 mb-5">
           <h4 class="font-weight-bold mb-4">Kategori</h4>
-          <div class="d-flex flex-wrap m-n1">
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Politics</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Business</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Corporate</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Sports</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Health</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Education</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Science</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Technology</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Foods</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Entertainment</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Travel</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Lifestyle</a>
-          </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5">
-          <h4 class="font-weight-bold mb-4">Tag</h4>
           <div class="d-flex flex-wrap m-n1">
               <a href="" class="btn btn-sm btn-outline-secondary m-1">Politics</a>
               <a href="" class="btn btn-sm btn-outline-secondary m-1">Business</a>
