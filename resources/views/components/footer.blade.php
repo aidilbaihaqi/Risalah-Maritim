@@ -13,21 +13,12 @@
               <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" target="_blank" href="https://www.instagram.com/risalahmaritim/"><i class="fab fa-instagram"></i></a>
           </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-5">
+      <div class="col-lg-4 col-md-6 mb-5">
           <h4 class="font-weight-bold mb-4">Kategori</h4>
           <div class="d-flex flex-wrap m-n1">
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Politics</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Business</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Corporate</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Sports</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Health</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Education</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Science</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Technology</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Foods</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Entertainment</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Travel</a>
-              <a href="" class="btn btn-sm btn-outline-secondary m-1">Lifestyle</a>
+            @foreach ($categories as $category)
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">{{ $category->name }}</a>
+            @endforeach
           </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-5">
