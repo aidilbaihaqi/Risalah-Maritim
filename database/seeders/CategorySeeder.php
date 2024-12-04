@@ -14,7 +14,14 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         Category::create(['name' => 'Acara']);
+        Category::create(['name' => 'Artikel Ilmiah']);
         Category::create(['name' => 'Akademik dan Pendidikan']);
+        Category::create(['name' => 'Berita']);
+        Category::create(['name' => 'Liputan']);
+        Category::create(['name' => 'Isak Senja']);
+        Category::create(['name' => 'Cerpen']);
+        Category::create(['name' => 'Puisi']);
+        Category::create(['name' => 'Senandika']);
         Category::create(['name' => 'Featured']);
         Category::create(['name' => 'Straight']);
         Category::create(['name' => 'Kegiatan Mahasiswa']);
