@@ -14,7 +14,7 @@
             use Carbon\Carbon;
             Carbon::setLocale('id');
         @endphp
-        {{ Carbon::now()->translatedFormat('l, j F Y') }}
+        <b>{{ Carbon::now()->translatedFormat('l, j F Y') }}</b>
       </div>
   </div>
   <div class="row align-items-center py-2 px-lg-5">
