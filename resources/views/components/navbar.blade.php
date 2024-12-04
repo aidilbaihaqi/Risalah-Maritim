@@ -15,9 +15,12 @@
               <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Kategori</a>
                     <div class="dropdown-menu rounded-0 m-0">
-                        <a href="#" class="dropdown-item">Menu item 1</a>
-                        <a href="#" class="dropdown-item">Menu item 2</a>
-                        <a href="#" class="dropdown-item">Menu item 3</a>
+                        <a href="#" class="dropdown-item">Pengumuman</a>
+                        <a href="#" class="dropdown-item">Akademik dan Pendidikan</a>
+                        <a href="#" class="dropdown-item">Kegiatan Mahasiswa</a>
+                        <a href="#" class="dropdown-item">Lingkungan dan Sosial</a>
+                        <a href="#" class="dropdown-item">Prestasi</a>
+                        <a href="#" class="dropdown-item">Teknologi dan Inovasi</a>
                     </div>
                 </div>
               <a href="" class="nav-item nav-link">Curhatan Mahasiswa</a>
