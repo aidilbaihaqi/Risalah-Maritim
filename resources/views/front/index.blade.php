@@ -458,18 +458,18 @@
                           <h3 class="m-0">Follow Us</h3>
                       </div>
                       <div class="d-flex mb-3">
-                          <a href="https://www.facebook.com/profile.php?id=61564325677662" target="_blank" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: linear-gradient(45deg, #1877f2, #3b5998);">
+                          <a href="https://www.facebook.com/profile.php?id=61564325677662&mibextid=kFxxJD" target="_blank" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: linear-gradient(45deg, #1877f2, #3b5998);">
                               <small class="fab fa-facebook-f mr-2"></small><small>Risalah Maritim</small>
                           </a>
-                          <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.tiktok.com%2F%40risalah.maritim%3F_t%3D8osqWfDAGh7%26_r%3D1%26fbclid%3DPAZXh0bgNhZW0CMTEAAaZj6DnHT50hl9TZLW48ctoePRPrE7JvxaeMZK_RLlRLicUIt3usU9UC-kc_aem_WB5EJP6qfZu8VPYDzMBSfw&e=AT3rLy-aT-AlIZm8twslIMGIq66m3FffsAaBOFV95XwGedAh6UJua7zobSXQf4vr9JtDkelGY4YXtF7l67HoAxEu_CJYrmZUXVencg" target="_blank" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: linear-gradient(45deg, #ee1d52, #ff4350, #ff5349, #69c9d0, #60a5fa);">
+                          <a href="https://www.tiktok.com/@risalah.maritim?_t=8osqWfDAGh7&_r=1" target="_blank" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: linear-gradient(45deg, #ee1d52, #ff4350, #ff5349, #69c9d0, #60a5fa);">
                               <small class="fab fa-tiktok mr-2"></small><small>@risalamaritim</small>
                           </a>
                       </div>
                       <div class="d-flex mb-3">
-                          <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frisalah-maritim-umrah-3b733131b%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app%26fbclid%3DPAZXh0bgNhZW0CMTEAAaYQ5ztRV06TXCeXnasXNpviTfDxobdqOAnfaZhhJDuba7OFfzqm7ZWBx-E_aem_pf2A8ziL1LeNNzqc-kundw&e=AT0f1r-WoFX3jDyTwjRtS2_bdBTdoD_NuvYPuUfk4r1K9Vb3VwUhS5usnuVXlZda7VMeGWaLO-rkohaHVI3cnc4_1VIxX2MB9ClmIQ" target="_blank" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: linear-gradient(45deg, #0077b5, #005582);">
+                          <a href="https://www.linkedin.com/in/risalah-maritim-umrah-3b733131b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: linear-gradient(45deg, #0077b5, #005582);">
                               <small class="fab fa-linkedin-in mr-2"></small><small>Risalah Maritim</small>
                           </a>
-                          <a href="" target="_blank" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888)">
+                          <a href="https://www.instagram.com/risalahmaritim.umrah/" target="_blank" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888)">
                               <small class="fab fa-instagram mr-2"></small><small>@risalahmaritim</small>
                           </a>
                       </div>
