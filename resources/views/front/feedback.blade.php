@@ -68,7 +68,7 @@
                       
                       @if (session('success'))
                           <div class="alert alert-success success">
-                              {{ session('success') }} Terimakasih karena telah berbagi cerita anda kepada kami.
+                              <b>{{ session('success') }}</b> Terimakasih karena telah berbagi cerita anda kepada kami.
                           </div>
                       @endif
                         
