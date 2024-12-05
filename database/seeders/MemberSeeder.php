@@ -35,7 +35,7 @@ class MemberSeeder extends Seeder
             'nim' => '2303010007',
             'name' => 'Nur Melisa Putri',
             'semester' => '3',
-            'position' => 'Sekretaris',
+            'position' => 'Sekretaris I',
             'division' => NULL,
             'major' => 'Pendidikan Bahasa dan Sastra Indonesia',
             'campus' => 'FKIP'
