@@ -13,8 +13,9 @@ return new class extends Migration
     {
         Schema::create('feedback', function (Blueprint $table) {
             $table->id();
-            $table->string('type');
-            $table->string('to');
+            $table->enum('category', ['kritik', 'saran', 'curhatan', 'tuntutan']);
+            $table->enum('to', ['perorangan', 'dosen', 'fakultas', 'rektorat', 'badan khusus', 'komunitas', 'organisasi', 'umum']);
+            $table->string('name')->nullable();
             $table->text('description');
             $table->timestamps();
         });

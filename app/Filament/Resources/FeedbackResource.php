@@ -24,7 +24,19 @@ class FeedbackResource extends Resource
     {
         return $form
             ->schema([
-                //
+                Forms\Components\TextInput::make('category')
+                ->required()
+                ->disabled(),
+
+                Forms\Components\TextInput::make('to')
+                ->required()
+                ->disabled(),
+
+                Forms\Components\TextInput::make('name')
+                ->required()
+                ->disabled(),
+
+                Forms\Components\Textarea::make('description')->required()->disabled()
             ]);
     }
 
@@ -32,8 +44,9 @@ class FeedbackResource extends Resource
     {
         return $table
             ->columns([
-                TextColumn::make('type')->label('Tipe'),
+                TextColumn::make('category')->label('Kategori'),
                 TextColumn::make('to')->label('Kepada'),
+                TextColumn::make('name')->label('Tujuan Spesifik'),
                 TextColumn::make('description')
                 ->label('Deskripsi')
                 ->limit(50)
@@ -44,6 +57,7 @@ class FeedbackResource extends Resource
                 //
             ])
             ->actions([
+                Tables\Actions\EditAction::make()->disabledForm(),
                 Tables\Actions\DeleteAction::make()
                 ->label('Hapus') // Ubah label tombol
                 ->tooltip('Hapus data ini') // Tooltip tambahan
@@ -53,6 +67,7 @@ class FeedbackResource extends Resource
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
+                    Tables\Actions\DeleteBulkAction::make(),
                     Tables\Actions\DeleteBulkAction::make(),
                 ]),
             ]);
@@ -73,11 +88,6 @@ class FeedbackResource extends Resource
     }
 
     public static function canCreate(): bool
-    {
-        return false;
-    }
-
-    public static function canEdit($record): bool
     {
         return false;
     }
