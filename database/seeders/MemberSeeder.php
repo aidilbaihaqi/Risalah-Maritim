@@ -94,7 +94,7 @@ class MemberSeeder extends Seeder
             'semester' => '3',
             'position' => 'Ketua Divisi',
             'division' => 'Teknologi Informasi',
-            'major' => 'Teknologi Informatika',
+            'major' => 'Teknik Informatika',
             'campus' => 'FTTK'
         ]);
         Member::create([
@@ -274,7 +274,7 @@ class MemberSeeder extends Seeder
             'semester' => '3',
             'position' => 'Anggota',
             'division' => 'Teknologi Informasi',
-            'major' => 'Teknologi Informatika',
+            'major' => 'Teknik Informatika',
             'campus' => 'FTTK'
         ]);
     }
