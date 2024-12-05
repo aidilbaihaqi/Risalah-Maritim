@@ -24,11 +24,15 @@ class FeedbackResource extends Resource
     {
         return $form
             ->schema([
+                Forms\Components\TextInput::make('category')
+                ->required()
+                ->disabled(),
+
                 Forms\Components\TextInput::make('to')
                 ->required()
                 ->disabled(),
 
-                Forms\Components\TextInput::make('type')
+                Forms\Components\TextInput::make('name')
                 ->required()
                 ->disabled(),
 
@@ -40,8 +44,9 @@ class FeedbackResource extends Resource
     {
         return $table
             ->columns([
+                TextColumn::make('category')->label('Kategori'),
                 TextColumn::make('to')->label('Kepada'),
-                TextColumn::make('type')->label('Tipe'),
+                TextColumn::make('name')->label('Tujuan Spesifik'),
                 TextColumn::make('description')
                 ->label('Deskripsi')
                 ->limit(50)
