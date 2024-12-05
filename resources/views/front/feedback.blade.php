@@ -94,6 +94,7 @@
                                   <option value="badan khusus">Badan Khusus</option>
                                   <option value="komunitas">Komunitas</option>
                                   <option value="organisasi">Organisasi</option>
+                                  <option value="organisasi">Umum</option>
                                 </select>
                               </div>
                             </div>
